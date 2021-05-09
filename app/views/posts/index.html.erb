@@ -1,0 +1,13 @@
+<div class="container">
+  <h1>Hotwire Twitter</h1>
+  <h4>A Rails, Hotwire demo</h4>
+
+  <%= turbo_frame_tag 'post_form' do %>
+    <%= render partial: 'form' %>
+  <% end %>
+
+  <%= turbo_stream_from :posts %>
+  <%= turbo_frame_tag 'posts' do %>
+      <%= render @posts %>
+  <% end %>
+</div>
