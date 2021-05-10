@@ -1,5 +1,7 @@
 # README
 
+App built base on tutorial: https://robrace.dev/build-a-twitter-clone-with-rails-hotwire/
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
